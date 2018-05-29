@@ -1,0 +1,4 @@
+"booking date (optional)";"value date";"name (optional)";"amount";"currency (optional, takes account base currency if empty)";"purpose (optional)";"Transaction fee (optional)"
+02.02.18;03.02.18;"ABC GmbH";"-50.12";"USD";"Beispiel Abgang Rückzahlung Paypal // Originalbetrag: 52.12 USD";2
+;05.02.18;;100;"EUR";"Beispiel Zugang ohne Namen";
+04.02.18;07.02.18;"Wirecard";-104;;"Auslandsüberweisung, Rechnungsbetrag: 99€";-5
