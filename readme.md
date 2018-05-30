@@ -1,5 +1,5 @@
 ## CSV Convert Penta
-    Converts the given source.csv file to target.csv. Source file may contian data which must be brought in the form of target csv file.
+ Converts the given source.csv file to target.csv. Source file may contian data which must be brought in the form of target csv file.
 
 ### Contents
 >    1) Installation
@@ -10,7 +10,8 @@
 > - The project is based on python2.7
 > - The folder contians the file requirements.txt which contains the libaries which needed to be installed
 >>  run the following command   
->>> sudo pip install -r requirements.txt
+    
+    sudo pip install -r requirements.txt
 
 ### Information
 > - The project is meant for transforming one csv file to another keeping the structure of target csv file
@@ -24,7 +25,8 @@
 > - But you can have Transform.py file as a module which you can import into your function or main file. This module will require only the source-file-path and target-file-path
 
 >> You can the following command to use it
->>> python Transform.py
+    
+    python Transform.py
 
 
 
