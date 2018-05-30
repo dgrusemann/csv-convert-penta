@@ -8,7 +8,7 @@
  
 ### Installation
 > - The project is based on python2.7
-> - The folder contians the file requirements.txt which contains the libaries which needed to be installed
+> - The folder contians the figele requirements.txt which contains the libaries which needed to be installed
 >>  run the following command   
     
     sudo pip install -r requirements.txt

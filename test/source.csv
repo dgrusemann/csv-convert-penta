@@ -1,2 +1,3 @@
-"Value Date","Booking Date","Payee","Account number","Transaction type","Payment reference","Amount","Currency"
-"18/04/2018","18/04/2018","chatchamp UG","IBAN","SEPA Credit Transfer","Uebertrag","5,000.00","EUR"
+Value Date,Booking Date,Payee,Account number,Transaction type,Payment reference,Amount,Currency
+18/04/2018,18/04/2018,chatchamp UG,IBAN,SEPA Credit Transfer,Uebertrag,5000,EUR
+19/05/2018,NaN,convertfly,IBN,SPO,NaN,NaN,USD

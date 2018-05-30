@@ -1,5 +1,5 @@
 import pandas as pd
-
+import numpy as np
 def ReadCsvData(sourceFile,targetFile):
     # reading the csv data using pandas
     # storing the csv into a dataFrame
@@ -18,6 +18,10 @@ def Transform(sourceFilePath, targetFilePath):
     # calling function ReadCsvData to get the DataFrames for the input csv files
     sourceDataFrame,targetDataFrame = ReadCsvData(sourceFilePath, targetFilePath)
     
+    # Replacing NaN Null values with NULL string
+    sourceDataFrame.replace(np.NaN, 'NULL', inplace=True)
+
+
     # getting no of rows from the sourceDataFrame
     noOfRowsSourceDF = len(sourceDataFrame.axes[0])
     
@@ -50,10 +54,11 @@ def Transform(sourceFilePath, targetFilePath):
             # we added the values for mandotry columns
             if colsName in mandotryFields:
 
-                # if the sourceDataFrame has NaN value for mandotry filed we just set the flag and break 
-                if sourceDataFrame[colsName][i]=='NaN':
+                # if the sourceDataFrame has NaN value for mandotry filed we just set the flag and break
+                print("this is ",bool(sourceDataFrame[colsName][i]),sourceDataFrame[colsName][i]) 
+                if sourceDataFrame[colsName][i]=="NULL":
                     setNotToAdd=1
-                    break;
+                    break
                 else:
                     colsValues.update({colsName:sourceDataFrame[colsName][i]})
             else:
