@@ -1,6 +1,4 @@
 booking date,value date,name,amount,currency,purpose,transaction fee
-02.02.18,03.02.18,ABC GmbH,-50.12,USD,Beispiel Abgang Rückzahlung Paypal // Originalbetrag: 52.12 USD,2.0
-,05.02.18,,100.0,EUR,Beispiel Zugang ohne Namen,
-04.02.18,07.02.18,Wirecard,-104.0,,"Auslandsüberweisung, Rechnungsbetrag: 99€",-5.0
-18/04/2018,18/04/2018,,"5,000.00",EUR,,
-18/04/2018,18/04/2018,NaN,"5,000.00",EUR,NaN,NaN
+02.02.18,03.02.18,ABC GmbH,-50.12,USD,Beispiel Abgang Rückzahlung Paypal // Originalbetrag: 52.12 USD,2
+,05.02.18,,100,EUR,Beispiel Zugang ohne Namen,
+04.02.18,07.02.18,Wirecard,-104,,"Auslandsüberweisung, Rechnungsbetrag: 99€",-5
