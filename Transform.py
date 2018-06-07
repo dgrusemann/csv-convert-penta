@@ -1,5 +1,6 @@
 import pandas as pd
 import numpy as np
+import sys
 def ReadCsvData(sourceFile,targetFile):
     # reading the csv data using pandas
     # storing the csv into a dataFrame
@@ -83,8 +84,16 @@ def Transform(sourceFilePath, targetFilePath):
     targetDataFrame.to_csv('test/target.csv', encoding='utf-8', index=False)
     return targetDataFrame
 
-sourceFile = raw_input('Enter the path to source.csv file \n')
-targetFile = raw_input('Enter the path to source.csv file \n')
+
+# To prompt the user to input the file path
+
+# sourceFile = raw_input('Enter the path to source.csv file \n')
+# targetFile = raw_input('Enter the path to source.csv file \n')
+
+# command line argument
+
+sourceFile = sys.argv[1]
+targetFile = sys.argv[2]
 
 targetDataFrame = Transform(sourceFile,targetFile)
 print(targetDataFrame)

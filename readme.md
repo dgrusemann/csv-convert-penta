@@ -26,8 +26,15 @@
 
 >> You can the following command to use it
     
-    python Transform.py
+    python Transform.py 
 
+>> You can also use it as command line argument
+    
+    python Transform.py << source-file-path >> << target-file-path >>
+
+    example
+
+    python Transform.py test/source.csv test/target.csv
 
 
 
